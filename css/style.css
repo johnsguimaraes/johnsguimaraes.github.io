@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    background: white;
+    background: linear-gradient(180deg, rgb(99, 99, 99) 0%, rgb(32, 32, 32) 49%);
+    
+    
+}
+
+.avatar {
+    width: 400px;
+    border-radius: 5px;
+    
+}
+
+h1 {
+    font-family: 'Abel', sans-serif;    
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+        
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.social {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    margin: 20px 0;
+    
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+
+}
